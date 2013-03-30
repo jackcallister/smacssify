@@ -2,8 +2,13 @@
 // to compile everything here.
 
 // Base
+@import 'reset';
+@import 'typography';
 
 // Layout
+@import 'header';
+@import 'content';
+@import 'footer';
 
 // Modules
 
