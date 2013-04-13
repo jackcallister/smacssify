@@ -1,14 +1,14 @@
-// In order to get all the goodness of SASS, ie. mixins, colours etc we need
+// In order to get all the goodness of SASS (mixins, colours, etc) we need
 // to compile everything here.
 
 // Base
-@import 'reset';
-@import 'typography';
+@import 'base/reset';
+@import 'base/typography';
 
 // Layout
-@import 'header';
-@import 'content';
-@import 'footer';
+@import 'layout/header';
+@import 'layout/body';
+@import 'layout/footer';
 
 // Modules
 

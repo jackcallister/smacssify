@@ -1,0 +1,1 @@
+This includes all types of layout containers such as header, footer, content, sidebar, etc. The layout elements don't really have any styles of their own, but are simply containers. All selectors in this category should be prefixed with .layout- (e.g. .layout-header, .layout-sidebar).

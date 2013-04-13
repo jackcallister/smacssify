@@ -1,0 +1,1 @@
+Modules can have different types of states: class-based states (.is-hidden), pseudo-classes (:hover, :focus), attribute states (data-state=transitioning), or @media query states. These states belong right to the modules but have a separate category because they have their own naming convention and usage rules.
