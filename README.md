@@ -2,19 +2,19 @@
 
 A Rails generator to set up a nice SMACSS-style directory structure inside assets/stylesheets. Very opinionated, only SASS and no require_tree allowed in your manifest file! This generator will set up a directory structure like so:
 
---stylesheets
-  |
-  |--base
-  |
-  |--layout
-  |
-  |--module
-  |
-  |--state
-  |
-  |--application.css
-  |
-  |--compiler.scss
+    --stylesheets/
+      |
+      |--base/
+      |
+      |--layout/
+      |
+      |--module/
+      |
+      |--state/
+      |
+      |--application.css
+      |
+      |--compiler.scss
 
 Everything from base, layout, module and state gets @imported into the compiler file which inturn gets required in application.css.
 
