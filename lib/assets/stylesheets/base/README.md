@@ -1,1 +1,0 @@
-This is where things like CSS resets, element defaults (e.g. link colors), default font sizes, etc. belong. The category is largely dominated by element selectors. You should always ask yourself "Is this base?" in order to not loose flexibility down the road.

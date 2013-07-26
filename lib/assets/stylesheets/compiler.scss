@@ -1,15 +1,17 @@
 // In order to get all the goodness of SASS (mixins, colours, etc) we need
 // to compile everything here.
 
-// Base
-@import 'base/reset';
-@import 'base/typography';
+// Config
+@import 'config/colours';
+@import 'config/mixins';
 
 // Layout
 @import 'layout/header';
 @import 'layout/body';
 @import 'layout/footer';
 
-// Modules
 
-// States
+// Globals
+@import 'globals/spaces';
+
+// Modules
